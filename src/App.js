@@ -1,4 +1,5 @@
 import React from "react";
+import Weather from "./Weather";
 import './App.css';
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
       <h1>
         Weather App
       </h1>
+      <Weather />
       <footer>
         This project was coded by {""}
         <a href="https://practical-goldberg-8caec7.netlify.app/" target="_blank">Bruna Santos</a> and is{" "}
