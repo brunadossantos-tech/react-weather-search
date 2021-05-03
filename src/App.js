@@ -9,7 +9,7 @@ export default function App() {
       <h1>
         Weather App
       </h1>
-      <Weather />
+      <Weather defaultCity="Oslo" />
       <footer>
         This project was coded by {""}
         <a href="https://practical-goldberg-8caec7.netlify.app/" target="_blank">Bruna Santos</a> and is{" "}
