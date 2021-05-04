@@ -36,7 +36,7 @@
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -30px;
 }
 .Weather .btn-primary {
   background-color: #ffcab0;
@@ -44,15 +44,14 @@
 }
 .Weather .details {
   border: 1px solid #97cba9;
-  background-color: #97cba9;
-  color: #f9f7fe;
+  background-color: #f9f7fe;
+  color: #97cba9;
   border-radius: 4px;
   padding: 10px;
   max-width: 200px;
   line-height: 2;
   position: relative;
-  top: -10px;
-  line-height: 2;
+  top: -80px;
 }
 .Weather form {
   margin-bottom: 20px;

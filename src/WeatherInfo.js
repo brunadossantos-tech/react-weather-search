@@ -3,6 +3,7 @@ import CurrentDate from "./CurrentDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 
+
 export default function WeatherInfo(props){
     return(
         <div className="WeatherInfo">
@@ -26,8 +27,9 @@ export default function WeatherInfo(props){
             </div>
             <div className="col-6 details">
                 <ul>
+                    <li> Feels: {Math.round(props.data.feels)}ºC</li>
                     <li>Humidity: {props.data.humidity} %</li>
-                    <li>Wind: {props.data.wind} km/h</li>
+                    <li> Wind: {props.data.wind} km/h</li>
                 </ul>
             </div>
         </div>
