@@ -8,3 +8,9 @@
   font-size: 11px;
   margin: 20px 0;
 }
+.App img {
+  margin-left: 10px;
+}
+.App .title {
+  color: #ffcab0;
+}

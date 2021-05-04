@@ -28,6 +28,7 @@
   margin-left: 5px;
   font-weight: 400;
   margin-left: 10px;
+  font-family: "Playfair Display", serif;
 }
 
 .Weather .unit {
@@ -42,9 +43,9 @@
   border: 1px solid #ffcab0;
 }
 .Weather .details {
-  border: 1px solid white;
-  background-color: #ffcab0;
-  color: white;
+  border: 1px solid #97cba9;
+  background-color: #97cba9;
+  color: #f9f7fe;
   border-radius: 4px;
   padding: 10px;
   max-width: 200px;

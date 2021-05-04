@@ -1,13 +1,17 @@
 import React from "react";
 import Weather from "./Weather";
 import './App.css';
+import rainbow from "./rainbow.png";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-      <h1>
-        Weather App
+      <h1 className="title">
+        Weather App 
+        <span>
+         <img src={rainbow} alt="rainbow" />
+        </span>
       </h1>
       <Weather defaultCity="Oslo" />
       <footer>
