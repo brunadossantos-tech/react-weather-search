@@ -16,8 +16,9 @@ export default function App() {
       <Weather defaultCity="Oslo" />
       <footer>
         This project was coded by {""}
-        <a href="https://practical-goldberg-8caec7.netlify.app/" target="_blank" rel="noreferrer">Bruna Santos</a> and is{" "}
-        <a href="https://github.com/brunadossantos-tech/react-weather-search.git" target="_blank" rel="noreferrer">open-sourced on GitHub</a>
+        <a href="https://practical-goldberg-8caec7.netlify.app/" target="_blank" rel="noreferrer">Bruna Santos</a> and is open-sourced on{" "}
+        <a href="https://github.com/brunadossantos-tech/react-weather-search.git" target="_blank" rel="noreferrer">GitHub</a> and hosted on{" "}
+        <a href="https://amazing-allen-99af45.netlify.app/" target="_blank" rel="noreferrer">Netlify</a>
       </footer>
       </div>
     </div>

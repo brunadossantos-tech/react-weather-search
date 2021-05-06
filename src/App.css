@@ -7,6 +7,10 @@
 .App footer {
   font-size: 11px;
   margin: 20px 0;
+  color: #272142;
+}
+.App footer a {
+  color: #97cba9;
 }
 .App img {
   margin-left: 10px;

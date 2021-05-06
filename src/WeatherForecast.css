@@ -1,3 +1,11 @@
 .WeatherForecast {
   text-align: center;
 }
+
+.WeatherForecast .WeatherForecast-day {
+  color: #272142;
+}
+
+.WeatherForecast .WeatherForecast-temperature-min {
+  opacity: 0.6;
+}

@@ -25,7 +25,7 @@
   color: #272142;
   font-size: 64px;
   line-height: 64px;
-  margin-left: 5px;
+  margin-left: 20px;
   font-weight: 400;
   margin-left: 10px;
   font-family: "Playfair Display", serif;
@@ -42,20 +42,28 @@
   background-color: #ffcab0;
   border: 1px solid #ffcab0;
 }
-.Weather .details {
-  border: 1px solid #97cba9;
-  background-color: #f9f7fe;
-  color: #97cba9;
-  border-radius: 4px;
-  padding: 10px;
-  max-width: 200px;
-  line-height: 2;
-  position: relative;
-  top: -80px;
-}
+
 .Weather form {
   margin-bottom: 20px;
 }
 .Weather canvas {
   margin: 10px auto;
+}
+
+.WeatherInfo .description {
+  opacity: 0.5;
+}
+.WeatherInfo .details {
+  color: white;
+  border: 1px solid #97cba9;
+  background-color: #97cba9;
+  border-radius: 4px;
+  justify-content: space-around;
+  padding: 10px;
+  font-size: 18px;
+}
+.WeatherTemperature {
+  position: relative;
+  left: -30px;
+  bottom: -10px;
 }
